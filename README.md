@@ -27,7 +27,9 @@ cd openjdk-hsdis
 + Install build-dependencies
 ```
 sudo apt-get install build-essential devscripts equivs
-sudo mk-build-deps -i -r
+#sudo mk-build-deps -i -r
+mk-build-deps
+dpkg -x xx.deb xxx 
 ```
 
 + Build package
